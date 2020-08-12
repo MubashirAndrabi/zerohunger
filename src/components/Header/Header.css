@@ -1,0 +1,19 @@
+.navbar {
+    background-color: #fff;
+    padding: 20px 0 !important;
+}
+.navbar a {
+    color: #000;
+    font-weight: bold;
+}
+.navbar a:hover{
+    text-decoration: none;
+    color: #248404;
+}
+
+.navbar-brand {
+    padding: 0!important;
+}
+.navbar-expand-lg .navbar-collapse{
+    justify-content: flex-end;
+}

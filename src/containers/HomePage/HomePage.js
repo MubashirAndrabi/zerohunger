@@ -1,13 +1,16 @@
 import React from "react";
-import { Slider, CardStack, Separator } from "../../components";
+import { CardStack, Separator, } from "../../components";
 import "./HomePage.css";
-import { Row, Col, Container, Card } from "react-bootstrap";
+import { Card } from "react-bootstrap";
+import Hero from "../../components/Hero/Hero";
 
 function HomePage() {
   return (
     <>
       <div className="container-1">
-        <Slider></Slider>
+        {/* <Slider></Slider>
+         */}
+         <Hero></Hero>
       </div>
 
       <div className="container-3">

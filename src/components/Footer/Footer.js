@@ -7,7 +7,7 @@ function Footer() {
       <div className="container">
         <div className="row">
           <div className="col-md-3 col-xs-12 about-company">
-            <img src="https://res-5.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1459544225/m9ywqs1gyaqq2c7np1zf.png" />
+            <img alt=" " src="https://res-5.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1459544225/m9ywqs1gyaqq2c7np1zf.png" />
           </div>
           <div className="col-md-2 col-xs-12 links1">
             <ul className="m-0 p-0">
