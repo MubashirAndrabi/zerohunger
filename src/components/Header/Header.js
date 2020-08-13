@@ -32,7 +32,7 @@ function Header() {
             <Link to="/howitworks"> How it works </Link>
           </Nav.Link>
         </Nav>
-        <NavDropdown title="Click Me" id="basic-nav-dropdown">
+        <NavDropdown title="Sign Up" id="basic-nav-dropdown">
           <NavDropdown.Item>SignUp</NavDropdown.Item>
           <NavDropdown.Item>Login</NavDropdown.Item>
           <NavDropdown.Item>Profile</NavDropdown.Item>

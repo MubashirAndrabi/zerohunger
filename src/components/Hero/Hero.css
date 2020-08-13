@@ -1,28 +1,36 @@
 .hero {
-    background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.3) 100%) , url('../../assets/hero.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 80vh;
-    min-height: 500px;
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url("../../assets/hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 80vh;
+  min-height: 500px;
 }
 .col-md-6 {
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 15px;
-    padding: 4% !important;
+  background-color: rgba(0, 0, 0, 0.267);
+  border-radius: 15px;
+  padding: 35px 50px !important;
+  color: #fff;
+}
+.hero-title, .hero-subtitle{
+  text-transform: capitalize;
+  margin: 0;
 }
 .hero-title {
     font-size: 45px;
-    text-transform: capitalize;
-    color: #248404;
-    margin-bottom: 20px;
 }
-.hero-subtitle {
-    padding: 0 15%;
-    margin-bottom: 25px;
+.hero-text {
+  margin-top: 30px;
+  width: 50%;
 }
 .btn {
-    background: #248404 !important;
-    border: #248404 !important;
-    padding: 10px 36px !important;
-    border-radius: 4rem !important;
+  background: #248404 !important;
+  border: #248404 !important;
+  padding: 10px 36px !important;
+  border-radius: 4rem !important;
 }

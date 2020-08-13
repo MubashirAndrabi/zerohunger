@@ -1,5 +1,5 @@
 import React from "react";
-import { CardStack, Separator, } from "../../components";
+import { CardStack, Separator } from "../../components";
 import "./HomePage.css";
 import { Card } from "react-bootstrap";
 import Hero from "../../components/Hero/Hero";
@@ -7,23 +7,8 @@ import Hero from "../../components/Hero/Hero";
 function HomePage() {
   return (
     <>
-      <div className="container-1">
-        {/* <Slider></Slider>
-         */}
-         <Hero></Hero>
-      </div>
-
-      <div className="container-3">
-        <h1 className="headingHome">Explore exotic locations in Finland</h1>
-      </div>
-
-      <div className="container-2">
-        <CardStack></CardStack>
-      </div>
-      <div className="container-2">
-        <Separator />
-      </div>
-
+      <Hero />
+      <CardStack />
       <div className="container-3">
         <h1>The sauna ritual (or how Attractr works).</h1>
       </div>

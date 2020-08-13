@@ -9,9 +9,10 @@ function Hero() {
   return (
     <div className="hero">
         <Row className="h-100 align-items-center">
-          <Col md={{ span: 6, offset: 3 }} className="text-center">
-            <h1 className="hero-title font-weight-bolder">dummy text of the printing</h1>
-            <p className="hero-subtitle">remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets </p>
+          <Col md={{ span: 6, offset: 1 }} className="text-left">
+            <h1 className="hero-title font-weight-bolder">No Matter how you say it</h1>
+            <h3 className="hero-subtitle">Hunger hurts!</h3>
+            <p className="hero-text text-left">Join this movement that prides itself on being a little different.</p>
             <Button size="lg">Read me</Button>
           </Col>
         </Row>
