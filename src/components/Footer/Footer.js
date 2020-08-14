@@ -1,13 +1,14 @@
 import React from "react";
 import config from "../../config.js";
 
+import Logo from '../../assets/logo.png';
 function Footer() {
   return (
     <div className="mt-5 pt-5 pb-5 footer">
       <div className="container">
         <div className="row">
           <div className="col-md-3 col-xs-12 about-company">
-            <img alt=" " src="https://res-5.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1459544225/m9ywqs1gyaqq2c7np1zf.png" />
+            <img alt=" " src={Logo} className="logo"/>
           </div>
           <div className="col-md-2 col-xs-12 links1">
             <ul className="m-0 p-0">

@@ -9,10 +9,7 @@ function HomePage() {
     <>
       <Hero />
       <CardStack />
-      <div className="container-3">
-        <h1>The sauna ritual (or how Attractr works).</h1>
-      </div>
-      <div className="container-2">
+      {/* <div className="container-2">
         <Card style={{ width: "18rem" }}>
           <Card.Body>
             <Card.Title>Card Title</Card.Title>
@@ -42,15 +39,7 @@ function HomePage() {
             </Card.Text>
           </Card.Body>
         </Card>
-      </div>
-
-      <div className="container-4">
-        <h4>
-          <a href="#">
-            PS. You can also become a Food Bank in just a few clicks!
-          </a>
-        </h4>
-      </div>
+      </div> */}
 
       <hr></hr>
     </>
