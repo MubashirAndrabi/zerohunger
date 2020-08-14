@@ -10,13 +10,15 @@ function Header() {
   return (
     <Navbar expand="lg">
       <Navbar.Brand>
-        <Link to="/">{
-          <img
-            src={Logo}
-            alt="logo"
-            width="200"
-            className="d-inline-block align-middle mr-2"
-          />}
+        <Link to="/">
+          {
+            <img
+              src={Logo}
+              alt="logo"
+              width="200"
+              className="d-inline-block align-middle mr-2"
+            />
+          }
         </Link>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
