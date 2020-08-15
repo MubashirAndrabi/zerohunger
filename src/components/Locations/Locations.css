@@ -1,0 +1,14 @@
+
+
+.text-center {
+    color: #248404;
+}
+
+.list-group-item {
+    border: none !important;
+}
+.list-group-item img {
+    margin-right: 10px;
+    max-width: 15px;
+    height: auto;
+}

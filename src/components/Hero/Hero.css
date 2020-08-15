@@ -10,6 +10,10 @@
   height: 80vh;
   min-height: 500px;
 }
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
 .col-md-6 {
   background-color: rgba(0, 0, 0, 0.267);
   border-radius: 15px;

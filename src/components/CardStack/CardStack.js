@@ -5,7 +5,7 @@ import location from "../../assets/location.png";
 import user from "../../assets/user.png";
 import grocery from "../../assets/grocery.png";
 
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 function CardStack() {
   return (
     <section className="cards">

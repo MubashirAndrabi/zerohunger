@@ -1,9 +1,9 @@
 .horiontalSeparator {
     width: 250px;
-    border: 3px solid red;
-
+    border: 3px solid #248404;
+    margin-left: 0px;
 }
 
-.second {
-    margin-left: 40px;
+.separator {
+    padding-left: 50px;
 }

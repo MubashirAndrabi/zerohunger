@@ -9,11 +9,7 @@ import { Container } from "react-bootstrap";
 function App() {
   return (
     <Router>
-      <Container>
-        <Header style={{ width: "100%" }} />
-      </Container>
-
-      <Container>
+      <Header style={{ width: "100%" }} />
         <Route
           path="/"
           exact
@@ -33,7 +29,6 @@ function App() {
             return <HowItWorksPage {...props} />;
           }}
         />
-      </Container>
 
       <Container>
         <Footer />
