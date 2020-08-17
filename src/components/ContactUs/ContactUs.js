@@ -17,6 +17,9 @@ function ContactUs() {
           <Form.Group controlId="formBasicCheckbox">
             <Form.Check type="checkbox" label="Check me out" />
           </Form.Group>
+          <Form.Group controlId="exampleForm.ControlTextarea1">
+            <Form.Control as="textarea" rows="5" />
+          </Form.Group>
           <Button variant="primary" type="submit">
             Submit
           </Button>
@@ -24,7 +27,7 @@ function ContactUs() {
       </Col>
 
       <Col xs="6">
-          <h3>We'd love to hear from you</h3>
+        <h3 className="p-0 contect-title">We'd love to hear from you</h3>
       </Col>
     </Row>
   );
