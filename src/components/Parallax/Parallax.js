@@ -36,7 +36,7 @@ const Parallax = () => {
 
   const handleClick = (event) => {
     setCurrent(quotes[event.target.getAttribute("data-quote")]);
-    // setActive(event.target.getAttribute("data-quote"));
+    setActive(event.target.getAttribute("data-quote"));
   };
   return (
     <div className="parallax">

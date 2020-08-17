@@ -5,4 +5,5 @@ export { default as ThreeSteps } from "./ThreeSteps/ThreeSteps";
 export { default as Hero } from './Hero/Hero';
 export { default as Locations } from './Locations/Locations';
 export { default as Parallax } from './Parallax/Parallax';
+export { default as ContactUs } from './ContactUs/ContactUs'
 
