@@ -1,5 +1,5 @@
 import React from "react";
-import { CardStack, Separator, ThreeSteps, Hero, Locations, Parallax } from "../../components";
+import { CardStack, Hero, Locations, Parallax } from "../../components";
 import "./HomePage.css";
 
 function HomePage() {
