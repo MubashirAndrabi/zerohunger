@@ -4,10 +4,11 @@ import "./Locations.css";
 import { Row, Col, ListGroup } from "react-bootstrap";
 
 import icon from "../../assets/correct.png";
+import ThreeSteps from "../ThreeSteps/ThreeSteps";
 
 function Locations() {
   return (
-    <Row>
+    <Row className="p-5 location">
       <Col xs="6">
         <h1 className="text-center font-weight-bold">Our Locations</h1>
       </Col>
@@ -43,6 +44,9 @@ function Locations() {
           </ListGroup.Item>
         </ListGroup>
       </Col>
+    <Col>
+    <ThreeSteps />
+    </Col>
     </Row>
   );
 }

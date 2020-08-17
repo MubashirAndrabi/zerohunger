@@ -1,5 +1,5 @@
 import React from "react";
-import { CardStack, Separator, ThreeSteps, Hero, Locations } from "../../components";
+import { CardStack, Separator, ThreeSteps, Hero, Locations, Parallax } from "../../components";
 import "./HomePage.css";
 
 function HomePage() {
@@ -7,11 +7,8 @@ function HomePage() {
     <>
       <Hero></Hero>
       <CardStack></CardStack>
-
-      <Separator />
-
       <Locations />
-      <ThreeSteps />
+      <Parallax />
     </>
   );
 }

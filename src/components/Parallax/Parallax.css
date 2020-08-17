@@ -1,0 +1,13 @@
+.parallax {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url('../../assets//hero3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+  }
