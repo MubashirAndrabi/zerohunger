@@ -7,7 +7,7 @@
   pointer-events: none;
 }
 #root {
-  font-family: 'Open-sans' !important;
+  font-family: 'Raleway-Regular' !important;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -37,4 +37,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-family: Raleway-Regular;
+  src: url("./assets/fonts/static/Raleway-Regular.ttf");
+}
+@font-face {
+  font-family: Avenir Next-bold;
+  src: url("./assets/fonts/static/Raleway-SemiBold.ttf");
+}
+@font-face {
+  font-family: Avenir Next-bolder;
+  src: url("./assets/fonts/static/Raleway-ExtraBold.ttf");
 }
