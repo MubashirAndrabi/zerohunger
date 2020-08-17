@@ -8,7 +8,7 @@ import "./Header.css";
 
 function Header() {
   return (
-    <Navbar expand="lg">
+    <Navbar expand="lg" sticky="top">
       <Navbar.Brand>
         <Link to="/">
           {
@@ -24,17 +24,20 @@ function Header() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav>
-          <Nav.Link>
-            <Link to="/"> Home </Link>
+          <Nav.Link className="mr-3">
+            <Link to="/" > Home </Link>
           </Nav.Link>
-          <Nav.Link>
+          <Nav.Link className="mr-3">
             <Link to="/about"> About </Link>
           </Nav.Link>
-          <Nav.Link>
+          <Nav.Link className="mr-3">
+            <Link to="/about"> Contact Us </Link>
+          </Nav.Link>
+          <Nav.Link className="mr-4">
             <Link to="/howitworks"> How it works </Link>
           </Nav.Link>
         </Nav>
-        <NavDropdown title="Sign Up" id="basic-nav-dropdown">
+        <NavDropdown title="Sign Up" id="basic-nav-dropdown" className="mr-4 ml-4">
           <NavDropdown.Item>SignUp</NavDropdown.Item>
           <NavDropdown.Item>Login</NavDropdown.Item>
           <NavDropdown.Item>Profile</NavDropdown.Item>

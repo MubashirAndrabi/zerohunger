@@ -54,7 +54,7 @@ function Footer() {
             </ul>
           </div>
           <div
-            className="col-md-2 col-xs-12 location"
+            className="col-md-2 col-xs-12"
             style={{ marginTop: "10px", paddingLeft: "30px" }}
           >
             <span>
