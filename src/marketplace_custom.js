@@ -6,14 +6,14 @@ export const footer1 = [
 ];
 
 export const footer2 = [
-  { key: "projects", label: "All projects" },
-  { key: "artist", label: "Artist story" },
-  { key: "volunteer", label: "Become an volunteer" },
+  { key: "projects", label: "All Projects" },
+  { key: "artist", label: "Real Stories" },
+  { key: "volunteer", label: "Become a Volunteer" },
 ];
 
 export const footer3 = [
-  { key: "why", label: "Why attracter" },
-  { key: "handbook", label: "Artist handbook" },
-  { key: "library", label: "Project library" },
+  { key: "why", label: "Why Us!" },
+  { key: "maps", label: "Maps" },
+  { key: "blogs", label: "Blogs" },
   { key: "community", label: "Communtiy" },
 ];

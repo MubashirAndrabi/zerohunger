@@ -9,44 +9,44 @@ import ThreeSteps from "../ThreeSteps/ThreeSteps";
 function Locations() {
   return (
     <Row className="p-5 location">
-      <Col xs="6">
+      <Col xs="6" className="location-column">
         <h1 className="text-center font-weight-bold">Our Locations</h1>
       </Col>
-      <Col xs="3">
+      <Col xs="3" className="location-column">
         <ListGroup no>
           <ListGroup.Item>
             <img src={icon} alt=" " />
-            Cras justo odio
+            Toronto
           </ListGroup.Item>
           <ListGroup.Item>
             <img src={icon} alt=" " />
-            Dapibus ac facilisis in
+            Mississauga
           </ListGroup.Item>
-          <ListGroup.Item>
+          {/* <ListGroup.Item>
             <img src={icon} alt=" " />
             Morbi leo risus
-          </ListGroup.Item>
+          </ListGroup.Item> */}
         </ListGroup>
       </Col>
-      <Col xs="3">
+      <Col xs="3" className="location-column">
         <ListGroup no>
           <ListGroup.Item>
             <img src={icon} alt=" " />
-            Cras justo odio
+            Brampton
           </ListGroup.Item>
           <ListGroup.Item>
             <img src={icon} alt=" " />
-            Dapibus ac facilisis in
+            Caledon
           </ListGroup.Item>
-          <ListGroup.Item>
+          {/* <ListGroup.Item>
             <img src={icon} alt=" " />
             Morbi leo risus
-          </ListGroup.Item>
+          </ListGroup.Item> */}
         </ListGroup>
       </Col>
-    <Col>
-    <ThreeSteps />
-    </Col>
+      <Col>
+        <ThreeSteps />
+      </Col>
     </Row>
   );
 }

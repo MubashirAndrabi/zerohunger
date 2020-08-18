@@ -84,7 +84,7 @@ function Footer() {
         <hr className="hrbig" />
         <div className="col copyright">
           <p className="copy" style={{ textAlign: "center" }}>
-            <small>© 2019. All Rights Reserved.</small>
+            <small>© 2020. All Rights Reserved.</small>
           </p>
         </div>
       </div>

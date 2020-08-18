@@ -15,24 +15,24 @@ function CardStack() {
           <img src={user} alt=" " />
           <h5 className="font-weight-bold">Sign Up</h5>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Hungry! Need groceries? Sign up for free today. Providing Healthy
+            Food For Hungry Neighbours.
           </p>
         </Col>{" "}
         <Col xs>
           <img src={location} alt=" " />
           <h5 className="font-weight-bold">Pick a Location</h5>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Please select your nearest convenient location as per the
+            availability to serve you better.
           </p>
         </Col>
         <Col xs>
           <img src={grocery} alt=" " />
-          <h5 className="font-weight-bold">Pick up/ Deliver your groceries</h5>
+          <h5 className="font-weight-bold">Pick up/ Get 'em delivered</h5>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Choice is yours! You can pick up food from your nearest location or
+            we can deliver it to your doorsteps.
           </p>
         </Col>
       </Row>

@@ -5,29 +5,29 @@ import "./Parallax.css";
 const Parallax = () => {
   const quotes = {
     0: {
-      client: "Client one, LA, US",
-      quote:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
-    1: {
-      client: "Client one, NY, US",
-      quote:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
-    2: {
       client: "Client one, ON, CA",
       quote:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    },
+    1: {
+      client: "Client two, ON, CA",
+      quote:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    },
+    2: {
+      client: "Client three, ON, CA",
+      quote:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },
     3: {
-      client: "Client one, BC, US",
+      client: "Client four, ON, CA",
       quote:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },
     4: {
-      client: "Client one, BC, ON",
+      client: "Client five, ON, CA",
       quote:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     },
   };
 

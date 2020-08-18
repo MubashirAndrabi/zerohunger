@@ -1,6 +1,15 @@
 .card-body {
     padding: 0.25rem !important;
 }
+
 .row {
     margin: 0 !important;
+}
+
+
+.grow:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    transition: 1s ease;
 }

@@ -1,0 +1,10 @@
+.carousel-indicators li {
+    background-color: #000 !important;
+}
+
+
+.carousel-caption {
+
+    color: black !important;
+    font-weight: bold;
+}
