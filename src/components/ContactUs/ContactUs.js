@@ -18,7 +18,7 @@ function ContactUs() {
             <Form.Check type="checkbox" label="Check me out" />
           </Form.Group>
           <Form.Group controlId="exampleForm.ControlTextarea1">
-            <Form.Control as="textarea" rows="5" />
+            <Form.Control as="textarea" rows="5" placeholder="Your Question"/>
           </Form.Group>
           <Button variant="primary" type="submit">
             Submit
@@ -28,6 +28,13 @@ function ContactUs() {
 
       <Col xs="6">
         <h3 className="p-0 contect-title">We'd love to hear from you</h3>
+        <h5>just say hello</h5>
+        <p className="mt-4">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy.
+        </p>
+        <h5 className="mt-3">Need Help?</h5>
+        <span>Contact example@gmail.com</span>
       </Col>
     </Row>
   );
