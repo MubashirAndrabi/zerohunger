@@ -1,5 +1,6 @@
 import React from "react";
 import config from "../../config.js";
+import { v4 as uuidv4 } from 'uuid';
 
 import logo from "../../assets/logo.png";
 import { SocialIcon } from "react-social-icons";
@@ -10,7 +11,7 @@ function Footer() {
       <div className="container">
         <div className="row">
           <div className="col-md-3 col-xs-12 about-company ">
-            <a href="#">
+            <a href="/">
               {" "}
               <img
                 alt=" "
@@ -23,8 +24,8 @@ function Footer() {
             <ul className="m-0 p-0 list-unstyled">
               {config.custom.footer1.map((item) => {
                 return (
-                  <li>
-                    <a href="#!"> {item.label}</a>
+                  <li key={uuidv4()}>
+                    <a href="/"> {item.label}</a>
                   </li>
                 );
               })}
@@ -34,9 +35,9 @@ function Footer() {
             <ul className="m-0 p-0 list-unstyled">
               {config.custom.footer2.map((item) => {
                 return (
-                  <li>
+                  <li key={uuidv4()}>
                     {" "}
-                    <a href="#!"> {item.label}</a>{" "}
+                    <a href="/"> {item.label}</a>{" "}
                   </li>
                 );
               })}
@@ -46,8 +47,8 @@ function Footer() {
             <ul className="m-0 p-0 list-unstyled">
               {config.custom.footer3.map((item) => {
                 return (
-                  <li>
-                    <a href="#!"> {item.label}</a>
+                  <li key={uuidv4()}>
+                    <a href="/"> {item.label}</a>
                   </li>
                 );
               })}
