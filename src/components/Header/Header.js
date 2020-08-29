@@ -26,6 +26,7 @@ function Header() {
         <Nav>
           <Nav.Link className="mr-3" href="/" >Home</Nav.Link>
           <Nav.Link className="mr-3" href="/about">About Us</Nav.Link>
+          <Nav.Link className="mr-3" href="/recipes">Recipes</Nav.Link>
           <Nav.Link className="mr-3" href="/about">Contact</Nav.Link>
           <Nav.Link className="mr-4">Voulnteer</Nav.Link>
         </Nav>

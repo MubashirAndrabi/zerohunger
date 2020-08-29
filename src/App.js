@@ -6,7 +6,7 @@ import { setCurrentUser, logoutUser } from "./actions/authActions";
 import { Provider } from "react-redux";
 import store from "./store";
 
-import { HomePage, AboutPage, HowItWorksPage, RegisterPage, LoginPage } from "./containers";
+import { HomePage, AboutPage, RegisterPage, LoginPage, RecipesPage } from "./containers";
 import { Header, Footer } from "./components";
 
 
@@ -67,9 +67,9 @@ class App extends Component {
             }}
           />
           <Route
-            path="/howitworks"
+            path="/recipes"
             render={(props) => {
-              return <HowItWorksPage {...props} />;
+              return <RecipesPage {...props} />;
             }}
           />
           <Footer />
