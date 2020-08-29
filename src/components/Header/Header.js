@@ -24,14 +24,14 @@ function Header() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav>
-          <Nav.Link className="mr-3" to="/" >Home</Nav.Link>
-          <Nav.Link className="mr-3" to="/about">About Us</Nav.Link>
-          <Nav.Link className="mr-3" to="/about">Contact</Nav.Link>
+          <Nav.Link className="mr-3" href="/" >Home</Nav.Link>
+          <Nav.Link className="mr-3" href="/about">About Us</Nav.Link>
+          <Nav.Link className="mr-3" href="/about">Contact</Nav.Link>
           <Nav.Link className="mr-4">Voulnteer</Nav.Link>
         </Nav>
         <NavDropdown title="Sign Up" id="basic-nav-dropdown" className="mr-4 ml-4">
-          <NavDropdown.Item>SignUp</NavDropdown.Item>
-          <NavDropdown.Item>Login</NavDropdown.Item>
+          <NavDropdown.Item href="/register">SignUp</NavDropdown.Item>
+          <NavDropdown.Item  href="/login">Login</NavDropdown.Item>
           <NavDropdown.Item>Profile</NavDropdown.Item>
           <NavDropdown.Divider />
           <NavDropdown.Item> Separated link</NavDropdown.Item>

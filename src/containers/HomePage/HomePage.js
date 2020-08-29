@@ -15,7 +15,7 @@ function HomePage() {
     <>
       <Hero></Hero>
       <Counter />
-      {/* <TwoCardCarousel /> */}
+      <TwoCardCarousel />
       <CardStack></CardStack>
       <Locations />
       <Parallax />

@@ -11,9 +11,9 @@ function Counter(props) {
     <>
       <Row className="p-5">
         <Col md="4">
-          <img src={knife} style={{ width: "20%", height: "auto" }} />
+          <img src={knife} style={{ width: "20%", height: "auto" }} alt=" " />
 
-          <span class="gradient-multiline">
+          <span className="gradient-multiline">
             <CountUp
               start={0}
               end={5000}
@@ -28,9 +28,9 @@ function Counter(props) {
         </Col>
 
         <Col md="4">
-          <img src={open} style={{ width: "20%", height: "auto" }} />
+          <img src={open} style={{ width: "20%", height: "auto" }} alt=" "/>
 
-          <span class="gradient-multiline">
+          <span className="gradient-multiline">
             <CountUp
               start={0}
               end={2020}
@@ -45,9 +45,9 @@ function Counter(props) {
         </Col>
 
         <Col md="4">
-          <img src={people} style={{ width: "20%", height: "auto" }} />
+          <img src={people} style={{ width: "20%", height: "auto" }} alt=" "/>
 
-          <span class="gradient-multiline">1 in 7</span>
+          <span className="gradient-multiline">1 in 7</span>
           <h4 style={{ textAlign: "center" }}>
             of the Canadian population live below the poverty line
           </h4>
