@@ -27,8 +27,9 @@ function Header() {
           <Nav.Link className="mr-3" href="/" >Home</Nav.Link>
           <Nav.Link className="mr-3" href="/about">About Us</Nav.Link>
           <Nav.Link className="mr-3" href="/recipes">Recipes</Nav.Link>
-          <Nav.Link className="mr-3" href="/about">Contact</Nav.Link>
-          <Nav.Link className="mr-4">Voulnteer</Nav.Link>
+          <Nav.Link className="mr-3" href="/#testimonial">Testimonial</Nav.Link>
+          <Nav.Link className="mr-3" href="/#contact">Contact</Nav.Link>
+          <Nav.Link className="mr-4"href="/volunteer">Volunteer</Nav.Link>
         </Nav>
         <NavDropdown title="Sign Up" id="basic-nav-dropdown" className="mr-4 ml-4">
           <NavDropdown.Item href="/register">SignUp</NavDropdown.Item>

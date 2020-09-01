@@ -1,8 +1,8 @@
 import React from "react";
 
-import "./Parallax.css";
+import "./Testimonial.css";
 
-const Parallax = () => {
+const Testimonial = () => {
   const quotes = {
     0: {
       client: "Client one, ON, CA",
@@ -39,7 +39,7 @@ const Parallax = () => {
     setActive(event.target.getAttribute("data-quote"));
   };
   return (
-    <div className="parallax">
+    <div className="parallax pt-5 pb-5" id="testimonial">
       <h1 className="parallax-title font-weight-bold">What People Say!</h1>
       <div className="parallax-text d-flex flex-column justify-content-center">
         <p>{current.quote}</p>
@@ -57,4 +57,4 @@ const Parallax = () => {
     </div>
   );
 };
-export default Parallax;
+export default Testimonial;

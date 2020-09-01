@@ -5,7 +5,7 @@ import { Row, Col, Form, Button } from "react-bootstrap";
 
 function ContactUs() {
   return (
-    <Row className="contact d-flex justify-content-center">
+    <Row className="contact d-flex justify-content-center" id="contact">
       <Col xs="6">
         <Form>
           <Form.Group controlId="formBasicEmail">

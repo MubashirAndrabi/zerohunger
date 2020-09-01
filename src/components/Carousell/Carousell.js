@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Carousel from "@bit/react-bootstrap.react-bootstrap.carousel";
-import ReactBootstrapStyle from "@bit/react-bootstrap.react-bootstrap.internal.style-links";
 
 import carousell from "../../assets/carousell.png";
 

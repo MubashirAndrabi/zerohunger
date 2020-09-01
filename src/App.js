@@ -6,9 +6,15 @@ import { setCurrentUser, logoutUser } from "./actions/authActions";
 import { Provider } from "react-redux";
 import store from "./store";
 
-import { HomePage, AboutPage, RegisterPage, LoginPage, RecipesPage } from "./containers";
+import {
+  HomePage,
+  AboutPage,
+  RegisterPage,
+  LoginPage,
+  RecipesPage,
+  VolunteerPage,
+} from "./containers";
 import { Header, Footer } from "./components";
-
 
 // Check for token to keep user logged in
 if (localStorage.jwtToken) {
@@ -64,6 +70,12 @@ class App extends Component {
             path="/about"
             render={(props) => {
               return <AboutPage {...props} />;
+            }}
+          />
+          <Route
+            path="/volunteer"
+            render={(props) => {
+              return <VolunteerPage {...props} />;
             }}
           />
           <Route

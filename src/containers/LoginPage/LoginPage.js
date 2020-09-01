@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { loginUser } from "../../actions/authActions";
 import classnames from "classnames";
-import { TwoCardCarousel } from "../../components";
 import { Row, Col, Form, Button } from "react-bootstrap";
 class LoginPage extends Component {
   constructor() {
@@ -37,12 +36,8 @@ class LoginPage extends Component {
     const { errors } = this.state;
     return (
       <>
-        <TwoCardCarousel />
-        <Row
-          className="contact d-flex justify-content-center"
-          style={{ padding: "2% 15%" }}
-        >
-          <Col xs="6">
+        <Row className="register d-flex">
+          <Col md={{ span: 6, offset: 3 }} sm={{ span: 4, offset: 3 }}>
             <p className="grey-text text-darken-1">
               Don't have an account? <Link to="/register">Register</Link>
             </p>

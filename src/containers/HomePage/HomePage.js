@@ -5,7 +5,7 @@ import {
   Hero,
   TwoCardCarousel,
   Locations,
-  Parallax,
+  Testimonial,
   ContactUs,
 } from "../../components";
 import "./HomePage.css";
@@ -16,9 +16,9 @@ function HomePage() {
       <Hero></Hero>
       <Counter />
       <TwoCardCarousel />
-      <CardStack></CardStack>
+      <CardStack />
       <Locations />
-      <Parallax />
+      <Testimonial />
       <ContactUs />
     </>
   );

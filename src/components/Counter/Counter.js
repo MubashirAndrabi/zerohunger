@@ -10,7 +10,7 @@ function Counter(props) {
   return (
     <>
       <Row className="p-5">
-        <Col md="4">
+        <Col md="4" className="text-center">
           <img src={knife} style={{ width: "20%", height: "auto" }} alt=" " />
 
           <span className="gradient-multiline">
@@ -22,13 +22,13 @@ function Counter(props) {
               delay={0.5}
             />
           </span>
-          <h4 style={{ textAlign: "center" }}>
+          <h4 className="mt-3" style={{ color: "#505050" }}>
             people in crisis fed during the last year
           </h4>
         </Col>
 
-        <Col md="4">
-          <img src={open} style={{ width: "20%", height: "auto" }} alt=" "/>
+        <Col md="4" className="text-center">
+          <img src={open} style={{ width: "20%", height: "auto" }} alt=" " />
 
           <span className="gradient-multiline">
             <CountUp
@@ -39,16 +39,16 @@ function Counter(props) {
               delay={0.5}
             />
           </span>
-          <h4 style={{ textAlign: "center" }}>
+          <h4 className="mt-3" style={{ color: "#505050" }}>
             the year that our foodbank opened
           </h4>
         </Col>
 
-        <Col md="4">
-          <img src={people} style={{ width: "20%", height: "auto" }} alt=" "/>
+        <Col md="4" className="text-center">
+          <img src={people} style={{ width: "20%", height: "auto" }} alt=" " />
 
           <span className="gradient-multiline">1 in 7</span>
-          <h4 style={{ textAlign: "center" }}>
+          <h4 className="mt-3" style={{ color: "#505050" }}>
             of the Canadian population live below the poverty line
           </h4>
         </Col>

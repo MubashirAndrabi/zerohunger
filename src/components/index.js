@@ -4,7 +4,7 @@ export { default as Footer } from "./Footer/Footer";
 export { default as ThreeSteps } from "./ThreeSteps/ThreeSteps";
 export { default as Hero } from "./Hero/Hero";
 export { default as Locations } from "./Locations/Locations";
-export { default as Parallax } from "./Parallax/Parallax";
+export { default as Testimonial } from "./Testimonial/Testimonial";
 export { default as ContactUs } from "./ContactUs/ContactUs";
 export { default as TwoCardCarousel } from "./TwoCardCarousel/TwoCardCarousel";
 export { default as Counter } from "./Counter/Counter";

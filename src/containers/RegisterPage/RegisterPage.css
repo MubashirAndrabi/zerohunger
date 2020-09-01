@@ -1,0 +1,9 @@
+.register {
+    background-image: url("../../assets/aroma.jpg"), linear-gradient(#eb01a5, #d13531);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 90vh;
+    padding: 5% 10%;
+}
+
